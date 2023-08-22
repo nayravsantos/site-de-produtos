@@ -1,0 +1,57 @@
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    left: 800px;
+    top: -10px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(202, 94, 117);
+    padding: 15px;
+}
+body{
+    background-color:  rgb(202, 94, 117);
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    position: relative;
+}
+img{
+    width: 30%;
+    position: relative;
+    border-style: solid;
+    padding-left: 0px;
+}
+nav#menu a :link{
+    text-decoration: none;
+    color:black;
+    font-family: verdana;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+nav#menu a:visited{
+    color:black;
+}
+nav#menu a:hover{
+    color:aliceblue;
+}
+h6{
+    background-color: black;
+}
+h1{
+    padding-left: 550px;
+
+}
+h1{
+    color:aliceblue;
+    font-family: verdana;
+    
+
+}
